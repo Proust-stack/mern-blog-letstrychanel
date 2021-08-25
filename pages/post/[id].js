@@ -137,13 +137,13 @@ const Post = ({post}) => {
                         <ArticleTitle>{title}</ArticleTitle>
                         <ArticleText>{text}</ArticleText>
                     </Article>
-                    {/* <Image
-                    src={post.imgUrl}
+                    <Image
+                    src={imgUrl}
                     alt="country"
                     width={540}
                     height={316}
-                    /> */}
-                    <img style={{width: 540, height: 316 }} src={imgUrl}></img>
+                    />
+                    {/* <img style={{width: 540, height: 316 }} src={imgUrl}></img> */}
                     <DeleteArticle onClick={removePost}>Удалить статью</DeleteArticle>
                 </ArticleWrapper>
             </Wrapper>
