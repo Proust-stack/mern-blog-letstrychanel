@@ -103,7 +103,7 @@ const AddBtn = styled.button`
     border: none;
 `
 
-const addPost = () => {
+const AddPost = () => {
     const [title, settitle] = useState('')
     const [text, settext] = useState('')
     const [imgUrl, setimgUrl] = useState('')
@@ -158,4 +158,4 @@ const addPost = () => {
     );
 };
 
-export default addPost;
+export default AddPost;
