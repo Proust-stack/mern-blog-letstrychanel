@@ -143,7 +143,7 @@ const Post = ({post}) => {
                     width={540}
                     height={316}
                     /> */}
-                    <img style={{width: 540, height: 316 }} src={imgUrl}></img>
+                    <img style={{width: 540, height: 316 }} src={imgUrl} alt='some country'></img>
                     <DeleteArticle onClick={removePost}>Удалить статью</DeleteArticle>
                 </ArticleWrapper>
             </Wrapper>
